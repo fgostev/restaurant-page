@@ -19,31 +19,15 @@ function createHeader(){
 }
 
 function createMainContent(){
-    const div = document.createElement('div');
-    div.id = 'main';
-    const h1 = document.createElement('h1');
-    h1.textContent = 'Bienvenidos a La Nogaderia!';
-    div.appendChild(h1);
-    const orderNow = document.createElement('a');
-    orderNow.href = '#menu';
-    orderNow.textContent = 'Order now!';
-    div.appendChild(orderNow);
-    const para = document.createElement('p');
-    para.id = 'description';
-    para.textContent = "Best Chili Nogadas in town. Can't miss them!"
-    div.appendChild(para);
-    const img = document.createElement('img');
-    img.alt = 'nogada';
-    img.src = '../imgs/Chile_nogada.png';
-    div.appendChild(img);
-
-    return div;
+    const main = document.createElement('div');
+    main.id = 'main';
+    return main;
 }
 
 function pageLoad(){
     const contentDiv = document.getElementById('content');
-    const header = createHeader();
     const mainContent = createMainContent();
+    const header = createHeader();
     contentDiv.appendChild(header);
     contentDiv.appendChild(mainContent);
 }
