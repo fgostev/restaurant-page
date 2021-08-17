@@ -1,10 +1,95 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    min-height: 100vh;
-    background-color: red;
-  }
+box-sizing: border-box;
+}
 
+body {
+margin: 0;
+min-height: 100vh;
+/* background-color: rgb(220, 205, 205); */
+background: url(../imgs/Chile_nogada.png) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: 'Montserrat', sans-serif;  
+}
+
+
+header{
+    background-color: rgba(112, 108, 108, 0.515);
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+}
+
+li {
+    padding-right: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(232, 232, 232, 0.946);
+}
+
+ li a:hover {
+    border-bottom: 1px solid rgba(223, 220, 220, 0.809);
+}
+/* main */
+
+#main {
+background: #faf5f5ce;
+margin-top: 12%;
+margin-left: 10%;
+margin-right: 10%;
+/* height: 350px; */
+/* overflow: scroll; */
+border: 1px solid rgb(235, 201, 11);
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+h1 {
+font-family: 'Satisfy', cursive;
+font-size: 5rem;
+margin-bottom: 0;
+margin-top: 5%;
+}
+
+hr{
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid green;
+    width: 65%;
+}
+
+#description{
+    padding-bottom: 180px
+}
+
+img{
+    align-self: center;
+    width: 70%;
+    border: 1px solid rgb(235, 201, 11);
+}
+
+#orderNow{
+    color: red;
+    background-color: green;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 15px 32px;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 10%;
+}
