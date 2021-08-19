@@ -123,3 +123,10 @@ img{
     font-size: 0.9rem;
     color: rgb(53, 72, 53);
 }
+
+/* queries */
+
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 3rem;
+    }
