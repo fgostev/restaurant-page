@@ -5,7 +5,7 @@ box-sizing: border-box;
 body {
 margin: 0;
 min-height: 100vh;
-background: url(../imgs/Chile_nogada.png) no-repeat center center fixed; 
+background: url(../src/imgs/Chile_nogada.png) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
