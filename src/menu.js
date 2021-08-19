@@ -9,24 +9,37 @@ function loadMenu(){
     const menuItems =
     [      
         { title: 'Nogada de Puebla',
-          price: 180
+          description: 'Nogada from the birth place of the dish',
+          price: '180 MXN'
         },
         { title: 'Nogada de Temporada',
-          price: 220
+          description: 'Seasonal food for the holiday',
+          price: '220 MXN'
         },
         {
           title: 'Noga Con Huevo',
-          price: 125 
+          description: 'Traditional nogada with an egg',
+          price: '125 MXN'
         },
         {
             title: 'Horchata',
-            price: 55
+            description:'Traditional rice made drink',
+            price: '25 MXN'
         }
     ]
     menuItems.forEach(item => {
-        const p = document.createElement('p');
-        p.textContent = item.title + " " + item.price;
-        mainContent.appendChild(p);
+        const title = document.createElement('p');
+        const description = document.createElement('p');
+        const price = document.createElement('p');
+        title.textContent = item.title
+        title.classList = 'item';
+        description.textContent = item.description;
+        description.classList = 'description';
+        price.textContent = item.price
+        price.classList = 'price';
+        mainContent.appendChild(title);
+        mainContent.appendChild(description);
+        mainContent.appendChild(price);
     })
 
     console.log('Menu!');
