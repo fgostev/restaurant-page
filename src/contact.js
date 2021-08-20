@@ -8,7 +8,7 @@ function loadContact(){
     mainContent.appendChild(h1);
     const img = document.createElement('img');
     img.alt = 'arcos';
-    img.src = 'queretaro';
+    img.src = queretaro;
     mainContent.appendChild(img);
     const contact = document.createElement('p');
 

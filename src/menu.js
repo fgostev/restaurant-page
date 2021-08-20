@@ -23,7 +23,7 @@ function loadMenu(){
         },
         {
             title: 'Horchata',
-            description:'Traditional mexican rice drink made from rice',
+            description:'Traditional mexican drink made from rice',
             price: '25 MXN'
         }
     ]
