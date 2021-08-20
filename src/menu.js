@@ -9,11 +9,11 @@ function loadMenu(){
     const menuItems =
     [      
         { title: 'Nogada de Puebla',
-          description: 'Nogada from the birth place of the dish',
+          description: 'Out traditional Nogada',
           price: '180 MXN'
         },
         { title: 'Nogada de Temporada',
-          description: 'Seasonal food for the holiday',
+          description: 'Seasonal holiday food',
           price: '220 MXN'
         },
         {
