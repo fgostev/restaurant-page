@@ -1,3 +1,5 @@
+import queretaro from'./imgs/queretaro.jpeg';
+
 function loadContact(){
     const mainContent = document.getElementById('main');
     mainContent.textContent = '';
@@ -6,7 +8,7 @@ function loadContact(){
     mainContent.appendChild(h1);
     const img = document.createElement('img');
     img.alt = 'arcos';
-    img.src = '../src/imgs/queretaro.jpeg';
+    img.src = 'queretaro';
     mainContent.appendChild(img);
     const contact = document.createElement('p');
 
