@@ -3,9 +3,7 @@ import loadHome from './home.js';
 import loadMenu from './menu.js';
 import loadContact from './contact.js';
 import './style.css';
-import './imgs/Chile_nogada.png';
-import './imgs/queretaro.jpeg';
-import './imgs/favicon.png';
+
 
 startPage();
 navigationBar();
