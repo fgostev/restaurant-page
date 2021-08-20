@@ -9,11 +9,11 @@ function loadMenu(){
     const menuItems =
     [      
         { title: 'Nogada de Puebla',
-          description: 'Nogada from the birth place of the dish',
+          description: 'Traditional Nogada from Puebla',
           price: '180 MXN'
         },
         { title: 'Nogada de Temporada',
-          description: 'Seasonal food for the holiday',
+          description: 'The famous independence dish',
           price: '220 MXN'
         },
         {
@@ -23,7 +23,7 @@ function loadMenu(){
         },
         {
             title: 'Horchata',
-            description:'Traditional rice made drink',
+            description:'Traditional mexican rice drink made from rice',
             price: '25 MXN'
         }
     ]
