@@ -10,8 +10,6 @@ function loadContact(){
     img.alt = 'arcos';
     img.src = queretaro;
     mainContent.appendChild(img);
-    const contact = document.createElement('p');
-
 }
 
 export default loadContact;
